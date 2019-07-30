@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--- section that users do not see. This section establishes what this file is about and connects the CSS file to this HTML file-->
+  <meta charset="UTF-8">
+  <title>Animaltastic</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<!--- created a div for where the multiple buttons will live-->
+  <div id="animal-buttons">
+
+  </div>
+<!---created a label and open field for users to type in an animal type-->
+  <form id="animal-form">
+    <label for="animal-input">Add an animal</label>
+    <input type="text" id="animal-input"><br>
+    <input id="add-animal" type="submit" value="Submit">
+  </form>
+<!---created a div (or page section) and labeled it. -->
+  <div id="animals">
+
+  </div>
+<!--CDN URL for jQuery, and connected the JS file to this HTML file(app.js). -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="app.js"></script>
+  
+</body>
+</html>
